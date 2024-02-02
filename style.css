@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+header{
+  background-color: rgb(0, 146, 63);
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+
+.logo {
+  margin-left: 5px;
+  width: 150px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+h3{
+  color: white;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.textPrincipal h1{
+  color:white;
+  text-align:center;
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+.headerInfos{
+  display: flex;
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+.headerInfos a {
+  margin-right: 50px;
+  margin: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.headerInfos a:hover{
+  color: rgb(248, 195, 0);
+}
+.textPrincipal {
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0;
+  border-bottom: 1px solid black;
+  background-image: url('imagens/independencia.png');
+  background-size: cover; 
+  background-position: center; 
+  color: #fff; 
+  padding: 20px; 
+  font-family: 'Nunito', sans-serif;
+
+}
+.textPrincipal2 {
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0;
+  color: #fff; 
+  padding: 20px; 
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.textPrincipal p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300 italic;
+  font-family: 'Nunito', sans-serif;
+  max-width: 900px;
+  text-align: center;
+}
+
+.textPrincipal h2 {
+  color: rgb(255, 255, 255);
+  width: 700px;
+  text-align-last: center;
+}
+.prefacio {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+}
+.prefacio h1{
+  margin: 10px;
+}
+.prefacio p1{
+  padding: 10px;
+  margin: 10px;
+}
+.brasao{
+  max-width: 225px;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  overflow: hidden;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  align-items: center;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.slideimg{
+  max-width: 100%;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+img {
+  width: 30%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+footer {
+  background-color: rgb(248, 195, 0);
+  text-align-last: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 17px;
+  overflow-x: auto; 
+}
+
+.casa-imperial {
+  flex: 0 0 calc(33.33% - 10px); 
+  margin-bottom: 25px;
+  border: 2px solid black;
+  border-radius: 22px;
+  height: 625px;
+}
+
+.casa-imperial p{
+  padding: 8px;
+}
+.galeriaimg {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 5px;
+}
+.riodejaneiro{
+  background-image: url("imagens/rio.png");
+}
